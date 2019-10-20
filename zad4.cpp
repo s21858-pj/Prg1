@@ -5,16 +5,13 @@ int main(){
 int i;
 int suma;
 cin >> i;
-if(i!=0){
+do
+{
+cout << suma +=i;
+while(i!=0)
 
-
-cout << "podaj zero\n";
-}
-else{
-
-cout << "podales zero\n";
-suma +=i;
-}
+count
+ 
 
 
 return 0;
