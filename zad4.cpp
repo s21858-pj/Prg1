@@ -1,17 +1,21 @@
-#include<iostream> //kamil surma patryk klimek
-namespace std;
+#include <iostream> //kamil surma patryk klimek
+using namespace std;
 int main(){
 
 int i;
+int suma;
 cin >> i;
-do 
-{
-if (i!=0)
-cout << "podaj zero";
-
-else
+if(i!=0){
 
 
+cout << "podaj zero\n";
 }
+else{
+
+cout << "podales zero\n";
+suma +=i;
+}
+
+
 return 0;
 }
